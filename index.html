@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./output.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="w-full bg-[url('./assets/home/background-home-mobile.jpg')] md:bg-[url(./assets/home/background-home-tablet.jpg)] lg:bg-[url(./assets/home/background-home-desktop.jpg)] bg-cover lg:bg- bg-center bg-no-repeat">
+
+  <header class="w-full">
+    <nav class="w-full flex  justify-between items-center relative top-0 mb-6 lg:py-6">
+      <div class="p-4 md:px-6">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg></div>
+        <div class="hidden md:flex backdrop-blur-3xl bg-[#ffffff0a]  px-4 lg:w-[55%] lg:items-center lg:justify-center">
+          <div class="hidden lg:flex w-[50%] h-[1px] bg-white opacity-25 absolute -left-[46%]"></div>
+          <ul class="flex text-white font-Barlow-condensed text-sh2 gap-x-8 items-center lg:gap-x-10z">
+            <li class="py-9 cursor-pointer"><a href="./index.html" class="font-normal mx-2 border-b-white py-9 nav-opt hover:border-b-2 " id=""><span class="hidden lg:inline font-bold mr-2">00 </span>HOME</a></li>
+            <li class="py-9 cursor-pointer"><a href="./destination.html" class="font-normal mx-2 border-b-white py-9 nav-opt hover:border-b-2 " id=""><span class="hidden lg:inline font-bold mr-2">01 </span>DESTINATION</a></li>
+            <li class=" py-9 cursor-pointer"><a href="./crew.html" class="font-normal mx-2 border-b-white py-9 nav-opt hover:border-b-2 " id=""><span class="hidden lg:inline font-bold mr-2">02 </span>CREW</a></li>
+            <li class=" py-9 cursor-pointer"><a href="./technology.html" class="font-normal mx-2 border-b-white py-9 nav-opt hover:border-b-2 " id=""><span class="hidden lg:inline font-bold mr-2">03 </span>TECHNOLOGY</a></li></ul>
+        </div>
+        
+      <div id="ham-icon" class="cursor-pointer md:hidden p-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z"/></g></svg></div>
+    </nav>
+    <div class="fixed top-0 right-0 w-[65%] backdrop-blur-xl text-white p-6 pt-8 flex flex-col h-screen gap-y-7 font-Barlow-condensed hidden" id="hamb-menu">
+      <div class="self-end cursor-pointer" id="icon-close">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z"/><path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z"/></g></svg></div>
+      <div class="">
+        <ol>
+          <li class="my-6 font-bold text-sh3">01 <a href="./index.html" class="font-normal mx-2">HOME</a></li>
+          <li class="my-6 font-bold text-sh3">02 <a href="./destination.html" class="font-normal mx-2">DESTINATION</a></li>
+          <li class="my-6 font-bold text-sh3">03 <a href="./crew.html" class="font-normal mx-2">CREW</a></li>
+          <li class="my-6 font-bold text-sh3">04 <a href="./technology.html" class="font-normal mx-2">TECHNOLOGY</a></li>
+        </ol>
+      </div>
+      
+    </div>
+  </header>
+
+  <main class="w-full md:mt-20 lg:pb-20">
+
+    <section class="w-full flex flex-col  px-4 text-center gap-y-16 py-4 md:px-28 md:pt-8 md:gap-y-36 md:py-8 lg:flex-row">
+    <article class="w-full flex flex-col lg:text-start lg:pr-24">
+    <p class="font-Barlow-condensed text-sh3  text-secondary lg:text-h5">SO, YOU WANT TO TRAVEL TO</p>
+    <p class="font-Bellefair text-h2 md:text-h1 text-white my-3">SPACE</p>
+    <p class="font-Barlow text-base text-secondary lg:text-b-text">Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax 
+    because we’ll give you a trulyout of this world experience! </p></article>
+    <article class="w-full flex justify-center items-center">
+      <div class="rounded-full w-52 h-52 flex justify-center items-center lg:w-64 lg:h-64" id="btn-container">
+        <button class="w-36 h-36 bg-white rounded-full flex justify-center items-center font-Bellefair text-xl cursor-pointer md:text-h4 md:w-52 md:h-52" id="btn-explore"><a href="./destination.html">EXPLORE</a>
+      </button>
+      </div>
+    </article>
+    </section>
+  </main>
+
+
+
+
+<script src="./js/index.js"></script>
+</body>
+</html>

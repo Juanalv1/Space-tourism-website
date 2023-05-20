@@ -1,0 +1,15 @@
+{
+  "name": "space-tourism-website-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Space tourism website coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "twb":"npx tailwindcss -i ./src/css/input.css -o ./output.css --watch" ,
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@shrutibalasa/tailwind-grid-auto-fit": "^1.1.0"
+  }
+}
